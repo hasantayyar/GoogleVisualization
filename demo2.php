@@ -15,7 +15,7 @@ $data = array(
                 array('c' => array(array('v' => '2014'), array('v' => 800), array('v' => 600)))
         )
 );
-$chart = new \Hasantayyar\Charts\GoogleCharts('LineChart', json_encode($data));
+$chart = new \Hasantayyar\Visualization\GoogleVisualization('LineChart', json_encode($data));
 $options = array('title' => 'chart1', 'theme' => 'maximized', 'width' => 500, 'height' => 200);
 $chartHtml = $chart->getSCript('chart1', $options);
 

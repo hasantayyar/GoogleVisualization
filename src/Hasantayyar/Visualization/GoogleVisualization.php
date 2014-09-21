@@ -1,7 +1,7 @@
 <?php
-namespace Hasantayyar\Charts;
+namespace Hasantayyar\Visualization;
 
-class GoogleCharts {
+class GoogleVisualization {
 
         private $chartType;
         private $data;

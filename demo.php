@@ -9,7 +9,7 @@ $data = array(
         array('New Visitor', 5896),
         array('Returning Visitor', 2356)
 );
-$chart = new \Hasantayyar\Charts\GoogleCharts('PieChart', $data);
+$chart = new \Hasantayyar\Visualization\GoogleVisualization('PieChart', $data);
 
 $options = array('title' => 'chart2', 'is3D' => true, 'width' => 500, 'height' => 400);
 $chartHtml =  $chart->getScript('chart2', $options);

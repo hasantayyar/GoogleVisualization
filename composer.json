@@ -1,8 +1,8 @@
 {
-    "name": "hasantayyar/google-charts",
+    "name": "hasantayyar/google-visualization",
     "type": "library",
-    "description": "Tiny google charts url generator library",
-    "keywords": ["google", "charts"],
+    "description": "Tiny google charts script generator library",
+    "keywords": ["google", "charts", "visualization"],
     "license": "LGPL",
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Hasantayyar\\Charts\\GoogleCharts": "src/"
+            "Hasantayyar\\Visualization\\GoogleVisualization": "src/"
         }
     },
     "minimum-stability": "dev"
