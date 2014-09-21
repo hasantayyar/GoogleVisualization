@@ -1,0 +1,19 @@
+{
+    "name": "hasantayyar/google-charts",
+    "type": "library",
+    "description": "Tiny google charts url generator library",
+    "keywords": ["google", "charts"],
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Hasan Tayyar BESIK",
+            "email": "tayyar.besik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Hasantayyar\\Charts\\GoogleCharts": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
